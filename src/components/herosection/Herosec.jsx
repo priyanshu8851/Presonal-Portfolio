@@ -7,7 +7,7 @@ import heroimage from '../../assets/heroPhoto.png'
 const Herosec = () => {
   return (
     <>
-      <div className="herosec main">
+      <div id="me_sec" className="herosec main">
         <div className="container">
           <div className="hero-content">
             <span className="grey-txt">Hello, My name is</span>

@@ -8,7 +8,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="projects main">
+      <div className="projects main" id="projectsec">
         <div className="container">
           <div className="heading">
             <h2>{project_head}</h2>

@@ -4,7 +4,7 @@ const about_head = "<Introduction/>";
 const About = () => {
   return (
     <>
-      <div className="about main">
+      <div className="about main" id="aboutsec">
         <div className="container">
           <div className="heading">
             <h2>{about_head}</h2>

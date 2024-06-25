@@ -1,0 +1,35 @@
+.contact{
+    min-height: 450px;
+}
+.contact .container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_form{
+    margin-top: 50px;
+    max-width:700px;
+    width:100%;
+}
+.contact_form form{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+.contact_form form input{
+    width: 100%;
+    background-color: #4d455540;
+    border:none;
+    padding: 10px;
+}
+.contact_form form input:focus{
+    outline:none;
+
+}
+.contact_form form .message{
+    height: 200px;
+}

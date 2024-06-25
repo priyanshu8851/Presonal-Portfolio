@@ -18,7 +18,7 @@ import  github from"../../assets/github.png";
 const Skills = () => {
   return (
     <>
-      <div className="skills_sec main">
+      <div id="skillsec" className="skills_sec main">
         <div className="container">
           <div className="heading">
             <h2>{skill_head}</h2>

@@ -1,23 +1,23 @@
 header{
     height:70px;
 }
-header .container{
+header .contain{
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
     width:100%;
     align-items: center;
 }
-header .container span{
+header .contain span{
     color:#932FF8;
     font-size: 30px;
+    padding-left: 30px;
 }
 .navBtn{
     height:18px;
     background-color: transparent;
     width:30px;
     border: none;
-    /* background-color: #932FF8; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;

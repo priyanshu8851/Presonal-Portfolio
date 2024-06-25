@@ -22,6 +22,11 @@
 ::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -39,6 +44,17 @@
 }
 body{
   background-color: #0F0F0F;
+  overflow-x: hidden;
+}
+.mainBody{
+  position: relative;
+  z-index: 9999;
+  left: 0;
+  background-color: #0F0F0F;
+  transition: 0.5s;
+}
+.mainBody.move{
+  left: -260px;
 }
 .grey-txt{
   color:#A6A6A6;
