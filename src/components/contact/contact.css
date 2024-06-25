@@ -6,10 +6,10 @@
     display: flex;
     margin: 10px;
     flex-direction: column;
+    gap:30px;
     align-items: center;
 }
 .contact_form{
-    margin-top: 50px;
     max-width:700px;
     width:100%;
     margin:0 10px
