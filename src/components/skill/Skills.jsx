@@ -1,18 +1,20 @@
 import React from "react";
 import "./skills.css";
+
 const skill_head="<Skills/>";
 
-const bootstrap="../src/assets/bootstrap_logo.png";
-const c="../src/assets/c_logo.png";
-const html="../src/assets/html_logo.png";
-const css="../src/assets/css_logo.png";
-const js="../src/assets/js_logo.png";
-const react="../src/assets/react_logo.png";
-const tailwind="../src/assets/tailwind.png";
-const vscode="../src/assets/vscode.png";
-const figma="../src/assets/figma.png";
-const photoshop="../src/assets/photoshop.png";
-const github="../src/assets/github.png";
+import  bootstrap from"../../assets/bootstrap_logo.png";
+import  html from"../../assets/html_logo.png";
+import  css from"../../assets/css_logo.png";
+import  js from"../../assets/js_logo.png";
+import  react from"../../assets/react_logo.png";
+import  tailwind from"../../assets/tailwind.png";
+import  vscode from"../../assets/vscode.png";
+import  figma from"../../assets/figma.png";
+import  photoshop from"../../assets/photoshop.png";
+import  github from"../../assets/github.png";
+
+
 const Skills = () => {
   return (
     <>
