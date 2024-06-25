@@ -1,0 +1,37 @@
+.about{
+    min-height: 500px;
+    padding: 50px 0;
+    background-color: rgb(13, 13, 13);
+}
+.about .container{
+    width:100%;
+    padding:0 10px
+}
+.about h5{
+    color:#F2F1F3;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top:20px ;
+}
+.about p{
+  color:#A6A6A6;
+
+}
+.about_content{
+    max-width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+@media screen and (max-width:380px) {
+    .about .container .heading h2{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:280px) {
+    .about .container .heading h2{
+        font-size: 28px;
+    }
+}

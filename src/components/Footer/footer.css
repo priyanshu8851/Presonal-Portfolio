@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    height:60px;
+    font-size: 16px;
+    margin-top: 70px;
+    width:100%;
+    /* background-color:#932FF8 ; */
+    justify-content: space-between;
+    align-items: center;
+    color:#F2F1F3;
+}
+footer .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

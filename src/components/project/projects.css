@@ -1,0 +1,20 @@
+.projects{
+    min-height: 600px;
+    padding: 50px 0;
+}
+.projects .container{
+    width:100%;
+    display: flex;
+    padding: 0 10px;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+  background-image: radial-gradient(#942ff825, #0F0F0F,#0F0F0F);
+}
+.project-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}

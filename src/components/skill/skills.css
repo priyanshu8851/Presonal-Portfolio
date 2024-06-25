@@ -1,0 +1,29 @@
+.skills_sec{
+    padding:50px 0;
+    min-height: 500px;
+}
+.skills_sec .container{
+    width:100%;
+    padding:0 10px;
+  background-image: radial-gradient(#942ff825, #0F0F0F,#0F0F0F);
+
+}
+.skill_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 90px;
+    gap:30px;
+    min-height: 500px;
+}
+.skill_content img{
+    transition: all ease 0.3s;
+    height:150px;
+}
+.skill_content:hover{
+    cursor: pointer;
+}
+.skill_content img:hover{
+    transform: translateY(-8px);
+}

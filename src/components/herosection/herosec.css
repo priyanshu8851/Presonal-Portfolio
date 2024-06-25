@@ -1,0 +1,151 @@
+.herosec{
+    min-height: 400px;
+    padding: 50px 0;
+}
+.herosec .container{
+    display: flex;
+    justify-content: space-between;
+    padding:0 10px;
+    width:100%;
+    align-items: center;
+  background-image: radial-gradient(#942ff825, #0F0F0F,#0F0F0F);
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    max-width: 50%;
+    width:100%;
+}
+.hero-content span{
+    font-size: 18px;
+    line-height: 20px;
+}
+.hero-content h1{
+    font-size: 76px;
+    font-weight: 500;
+    line-height: 80px;
+}
+.hero-content p{
+    font-size: 20px;
+}
+.contact-hero{
+    display: flex;
+    gap:12px;
+}
+.contact-hero .contact-handle{
+    color:#A6A6A6;
+    font-size: 24px;
+    transition: all ease 0.3s;
+}
+.contact-hero .contact-handle a{
+    color:#A6A6A6;
+    
+}
+.contact-hero .contact-handle a:hover{
+    color:#F2F1F3;
+    
+}
+.contact-hero .contact-handle:hover{
+    cursor: pointer; 
+    transform: translateY(-5px);
+
+}
+.hero-img{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+.hero-resume{
+    display: flex;
+    margin-top: 30px;
+    color:#F2F1F3;
+    gap:20px;
+    align-items: center;
+}
+.hero-resume button{
+    width:140px;
+    height: 40px;
+    border-radius: 24px;
+    border: none;
+    opacity: 0.8;
+    transition: all ease 0.3s;
+    color:#F2F1F3;
+    border: 2px solid #932FF8;
+    background-color: transparent;
+    color: #932FF8;
+    font-size: 16px;
+}
+.hero-resume button:hover{
+    background-color: #932FF8;
+    color: #F2F1F3;
+
+}
+.hero-resume button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+@media screen and (max-width:800px) {
+    .herosec .container{
+        flex-direction: column-reverse;
+        gap:40px
+    }
+    
+.hero-content{
+    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+}
+@media screen and (max-width:390px) {
+    
+.hero-img{
+height: 100%;
+}
+.hero-img img{
+    height: 310px;
+}
+
+.hero-content span{
+    font-size: 14px;
+    line-height: 14px;
+}
+.hero-content h1{
+    font-size: 56px;
+    line-height: 56px;
+}
+.hero-content p{
+    font-size: 16px;
+}
+
+.hero-resume button{
+    width:100px;
+    height: 30px;
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width:330px) {
+    .herosec .container{
+        padding: 0 10px;
+    }
+    .hero-img img{
+        height: 280px;
+    }
+}
+@media screen and (max-width:290px) {
+    
+    .hero-img img{
+        height: 230px;
+    }
+    
+.hero-content h1{
+    font-size: 44px;
+    line-height: 46px;
+}
+.hero-resume p{
+    font-size: 14px;
+}
+}

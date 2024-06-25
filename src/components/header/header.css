@@ -1,0 +1,42 @@
+header{
+    height:70px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    width:100%;
+    align-items: center;
+}
+header .container span{
+    color:#932FF8;
+    font-size: 30px;
+}
+.navBtn{
+    height:18px;
+    background-color: transparent;
+    width:30px;
+    border: none;
+    /* background-color: #932FF8; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navBtn:hover{
+    cursor: pointer;
+}
+.navBtn span{
+    background-color: #F2F1F3;
+    height:3px;
+    width:100%; 
+}
+@media screen and (max-width:300px) {
+    header .container span{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width:260px) {
+    header .container span{
+        font-size: 22px;
+    }
+}
