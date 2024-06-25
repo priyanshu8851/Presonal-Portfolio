@@ -15,7 +15,7 @@ const ProjectCard = (props) => {
 
       <div className="project-card">
         <img src={props.img} alt="" />
-       <div className="card-content"></div>
+       <div className="card-content">
        <h3>{props.title}</h3>
         <p>{props.skills}</p>
         <span>{props.dis}</span>
@@ -31,6 +31,8 @@ const ProjectCard = (props) => {
             </a>
           </button>
         </div>
+       </div>
+       
       </div>
     </>
   );
