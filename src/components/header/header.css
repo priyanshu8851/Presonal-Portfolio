@@ -11,7 +11,7 @@ header .contain{
 header .contain span{
     color:#932FF8;
     font-size: 30px;
-    padding-left: 30px;
+    padding:0 0 0 10px;
 }
 .navBtn{
     height:18px;
