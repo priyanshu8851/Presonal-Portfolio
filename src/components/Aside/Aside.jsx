@@ -4,7 +4,7 @@ import './Aside.css'
 const Aside = () => {
 
   const skills=".skills()"
-  const me=".me()"
+  const me=".Home()"
   const project=".projects()"
   const intro=".inrto()"
   const contact=".contact()"

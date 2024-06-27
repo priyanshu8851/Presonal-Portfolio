@@ -8,22 +8,7 @@ const projects = [
         link : "https://easyc.netlify.app",
         img : '/Images/Easyc.png'
     },
-    {
-        name:"Shape-x (GYM Landing Page website )",
-        dis :"Modern UI based GYM landing page",
-        technologies : "HTML,CSS,Figma",
-        github : "https://github.com/priyanshu8851/shapex-landingPage",
-        link : "https://shape-x.netlify.app/",
-        img : '/Images/Shapex.png'
-    },
-    {
-        name:"COC_Landing page",
-        dis :"Moder UI based landing page",
-        technologies : "HTML,CSS,Js",
-        github : "https://github.com/priyanshu8851/coc_landingPage_idea",
-        link : "https://coc-landingpage.netlify.app/",
-        img : '/Images/coc.png'
-    },
+    
     {
         name:"React News App",
         dis :"ReactJS API Project | Realtime news application API based",
@@ -39,6 +24,23 @@ const projects = [
         github : "https://github.com/priyanshu8851/WeatherApp",
         link : "https://weather-app-pika.netlify.app/",
         img : "/Images/weatherApp.png"
+    },
+    
+    {
+        name:"Shape-x (GYM Landing Page website )",
+        dis :"Modern UI based GYM landing page",
+        technologies : "HTML,CSS,Figma",
+        github : "https://github.com/priyanshu8851/shapex-landingPage",
+        link : "https://shape-x.netlify.app/",
+        img : '/Images/Shapex.png'
+    },
+    {
+        name:"COC_Landing page",
+        dis :"Moder UI based landing page",
+        technologies : "HTML,CSS,Js",
+        github : "https://github.com/priyanshu8851/coc_landingPage_idea",
+        link : "https://coc-landingpage.netlify.app/",
+        img : '/Images/coc.png'
     },
 
     
