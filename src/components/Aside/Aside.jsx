@@ -1,7 +1,7 @@
 import React from "react";
 import './Aside.css'
 
-const Aside = () => {
+const Aside = (props) => {
 
   const skills=".skills()"
   const me=".Home()"
@@ -11,11 +11,11 @@ const Aside = () => {
   return (
     <>
       <aside>
-        <a href="#me_sec">{me}</a>
-        <a href="#aboutsec">{intro}</a>
-        <a href="#skillsec">{skills}</a>
-        <a href="#projectsec">{project}</a>
-        <a href="#contactsec">{contact}</a>
+        <a href="#me_sec" onClick={()=>props.navFn(!props.navState)}>{me}</a>
+        <a href="#aboutsec" onClick={()=>props.navFn(!props.navState)}>{intro}</a>
+        <a href="#skillsec" onClick={()=>props.navFn(!props.navState)}>{skills}</a>
+        <a href="#projectsec" onClick={()=>props.navFn(!props.navState)}>{project}</a>
+        <a href="#contactsec" onClick={()=>props.navFn(!props.navState)}>{contact}</a>
       </aside>
     </>
   );

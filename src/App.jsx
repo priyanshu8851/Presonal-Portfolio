@@ -11,10 +11,10 @@ import Contact from "./components/contact/Contact";
 
 const App = () => {
 
-  const [aside, setAside] = useState(false)
+  const [aside, setAside] = useState(false);
   return (
     <>
-      <Aside/>
+      <Aside navFn={setAside} navState={aside}/>
       <div className={ aside ? "move mainBody": "mainBody"}>
         <Header navFn={setAside} navState={aside} />
         <Herosec />
