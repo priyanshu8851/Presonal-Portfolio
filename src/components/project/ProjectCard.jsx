@@ -1,11 +1,6 @@
 import React from "react";
 import "./projectCard.css";
 
-const projectImg = "../src/assets/Shapex.png";
-const projectName = "Shape-x";
-const shapex = "https://shape-x.netlify.app/";
-const shapexGit = "https://github.com/priyanshu8851/shapex-landingPage";
-
 const ProjectCard = (props) => {
 
 
@@ -14,7 +9,7 @@ const ProjectCard = (props) => {
 
 
       <div className="project-card">
-        <img src={props.img} alt="" />
+        <img src={props.img} alt="Project view" />
        <div className="card-content">
        <h3>{props.title}</h3>
         <p>{props.skills}</p>
