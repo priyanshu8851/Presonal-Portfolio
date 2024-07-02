@@ -83,6 +83,12 @@ body{
   width:100px;
   background-color: #F2F1F3;
 }
+
+.homelayout{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
 @media screen and (max-width:300px) {
 .heading h2{
   font-weight: 450;
