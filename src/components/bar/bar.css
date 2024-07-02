@@ -40,12 +40,18 @@
 @media screen and (max-width:500px) {
     .rightbar{
         display: none;
+    width: 0px;
+
     }
     .leftbar{
         display: none;
+    width: 0px;
+
     }
 }
 .center{
     width:100%;
     background-color: #0F0F0F;
+    padding: 0;
+    margin: 0;
 }
