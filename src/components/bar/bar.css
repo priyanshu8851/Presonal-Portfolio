@@ -37,3 +37,11 @@
     justify-content: center;
     position: relative;
 }
+@media screen and (max-width:500px) {
+    .rightbar{
+        display: none;
+    }
+    .leftbar{
+        display: none;
+    }
+}
