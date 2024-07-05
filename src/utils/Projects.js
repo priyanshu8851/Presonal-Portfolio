@@ -41,7 +41,14 @@ const projects = [
         github : "https://github.com/priyanshu8851/coc_landingPage_idea",
         link : "https://coc-landingpage.netlify.app/",
         img : '/Images/coc.png'
-    },
+    },{
+        name:"Sticky_trends",
+        dis :"Moder UI based Stickers website",
+        technologies : "HTML,CSS,Reactjs, Figma",
+        github : "https://github.com/priyanshu8851/Sticky_trends",
+        link : "https://stickytrends.netlify.app/",
+        img : '/Images/stickyTrends.png'
+    }
 
     
 ]
