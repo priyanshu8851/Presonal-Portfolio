@@ -3,7 +3,7 @@ const projects = [
     {
         name:"EacyC - Team project",
         dis :"An Custom Header files for C programmer's helps to perform operations on data structures (Team Project)- Contributed as Developer",
-        technologies : " C programming ,ReactJS, Figma",
+        technologies : " C programming ,ReactJS, Figma, HTML, CSS",
         github : "https://github.com/Harshkhanagwal/easyc-website",
         link : "https://easyc.netlify.app",
         img : '/Images/Easyc.png'
@@ -37,7 +37,7 @@ const projects = [
     {
         name:"COC_Landing page",
         dis :"Moder UI based landing page",
-        technologies : "HTML,CSS,Js",
+        technologies : "HTML,CSS",
         github : "https://github.com/priyanshu8851/coc_landingPage_idea",
         link : "https://coc-landingpage.netlify.app/",
         img : '/Images/coc.png'
