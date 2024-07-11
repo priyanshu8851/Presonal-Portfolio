@@ -48,9 +48,15 @@ const projects = [
         github : "https://github.com/priyanshu8851/Sticky_trends",
         link : "https://stickytrends.netlify.app/",
         img : '/Images/stickyTrends.png'
+    },
+    {
+        name:"Tech-boot",
+        dis :"Modern ui based landing page using bootstrap",
+        technologies : "HTML,CSS,Bootstrap",
+        github : "https://github.com/priyanshu8851/Tech-Boot",
+        link : "https://tech-boot.netlify.app/",
+        img : '/Images/techboot.png'
     }
-
-    
 ]
 
 
