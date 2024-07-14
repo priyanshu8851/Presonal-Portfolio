@@ -11,11 +11,11 @@ const Contact = () => {
             <span></span>
         </div>
         <div className="contact_form">
-            <form action="">
-                <input type="text" placeholder='Enter Your Name' />
-                <input type="email" placeholder='Enter Your Email'  />
-                <textarea type="text" placeholder='Enter your message' class="message" />
-                <button>Send Message</button>
+            <form action="https://getform.io/f/bwngqmza" method='POST'>
+                <input type="text" placeholder='Enter Your Name' name='name' />
+                <input type="email" placeholder='Enter Your Email' name='email' />
+                <textarea type="text" placeholder='Enter your message' class="message" name='message' />
+                <button type='submit'>Send Message</button>
             </form>
         </div>
         </div>
