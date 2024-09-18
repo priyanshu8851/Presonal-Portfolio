@@ -16,7 +16,7 @@ const About = () => {
               Student
             </h5>
             <p>
-              Hello! I'm Priyanshu, currently pursuing a Bachelor's degree in
+              Hello! I'm Priyanshu,Recently i have completed my Bachelor's degree in
               Computer Applications (BCA). I am passionate about web designing
               and frontend development, with a keen interest in creating
               visually appealing and user-friendly websites.

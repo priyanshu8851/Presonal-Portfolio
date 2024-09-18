@@ -56,6 +56,14 @@ const projects = [
         github : "https://github.com/priyanshu8851/Tech-Boot",
         link : "https://tech-boot.netlify.app/",
         img : '/Images/techboot.png'
+    },
+    {
+        name:"DigitalClub",
+        dis :"An modern UI based webapplication for digital marketing",
+        technologies : "HTML, CSS",
+        github : "https://github.com/priyanshu8851/DigiClub",
+        link : "https://digitalclub.netlify.app/",
+        img : '/Images/digitalclub.jpg'
     }
 ]
 
