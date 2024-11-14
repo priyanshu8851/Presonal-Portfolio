@@ -23,7 +23,7 @@ const Herosec = () => {
                   strings: [
                     "Frontend Developer",
                     "Programmer",
-                    "BCA Student",
+                    "MCA Student",
                     "Designer",
                   ],
                 }}
