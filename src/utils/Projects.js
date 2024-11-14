@@ -64,6 +64,14 @@ const projects = [
         github : "https://github.com/priyanshu8851/DigiClub",
         link : "https://digitalclub.netlify.app/",
         img : '/Images/digitalclub.jpg'
+    },
+    {
+        name:"Todo-List",
+        dis:"React based  To-do List ",
+        technologies:"Reactjs,HTML & CSS,  Figma",
+        github:"https://github.com/priyanshu8851/TodoList",
+        link:"https://react-todo-priyanshu.netlify.app/",
+        img : '/Images/todo.png'
     }
 ]
 
