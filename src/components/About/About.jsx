@@ -29,10 +29,7 @@ const About = () => {
               potential to shape our world. This curiosity led me to pursue a
               BCA, where I've been able to dive deep into the world of computer
               science, learning various programming languages and web
-              technologies. Over the past 7 months, I have also gained professional
-              experience in web development at <strong>Knax Technologies</strong>,
-              where I worked on real-world projects, collaborated with teams,
-              and honed my frontend skills.
+              technologies.
             </p>
             <h5>Skills & Interests:</h5>
             <p>
@@ -47,6 +44,16 @@ const About = () => {
               improve user experiences. Continuous Learning: I am committed to
               staying updated with the latest industry trends and technologies
               to enhance my skills and knowledge.
+            </p>
+            <h5>Experience:</h5>
+            <p>
+              <strong>Web Developer Intern – Knax Technologies (7 Months)</strong><br />
+              During my internship at Knax Technologies, I contributed to the
+              design and development of client-facing web applications. My work
+              involved converting Figma designs into fully functional and responsive
+              React components, collaborating with designers and backend developers,
+              and learning industry best practices. This experience helped me grow
+              technically while gaining hands-on exposure to real-world development environments.
             </p>
             <h5>Goals:</h5>
             <p>
