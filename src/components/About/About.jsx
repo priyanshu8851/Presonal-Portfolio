@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.css";
+
 const about_head = "<Introduction/>";
+
 const About = () => {
   return (
     <>
@@ -13,10 +15,10 @@ const About = () => {
           <div className="about_content">
             <h5>
               Priyanshu | Aspiring Web Designer & Frontend Developer | BCA
-              Student
+              Graduate
             </h5>
             <p>
-              Hello! I'm Priyanshu,Recently i have completed my Bachelor's degree in
+              Hello! I'm Priyanshu, a recent graduate with a Bachelor's degree in
               Computer Applications (BCA). I am passionate about web designing
               and frontend development, with a keen interest in creating
               visually appealing and user-friendly websites.
@@ -27,7 +29,10 @@ const About = () => {
               potential to shape our world. This curiosity led me to pursue a
               BCA, where I've been able to dive deep into the world of computer
               science, learning various programming languages and web
-              technologies.
+              technologies. Over the past 7 months, I have also gained professional
+              experience in web development at <strong>Knax Technologies</strong>,
+              where I worked on real-world projects, collaborated with teams,
+              and honed my frontend skills.
             </p>
             <h5>Skills & Interests:</h5>
             <p>
@@ -58,7 +63,6 @@ const About = () => {
               enthusiastic about applying my skills and knowledge to real-world
               projects and contributing to dynamic teams.
             </p>
-           
           </div>
         </div>
       </div>
