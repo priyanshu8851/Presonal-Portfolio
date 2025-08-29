@@ -14,7 +14,7 @@ const About = () => {
           </div>
           <div className="about_content">
             <h5>
-              Priyanshu | Aspiring Web Designer & Frontend Developer | BCA
+              Priyanshu | Web Designer & Frontend Developer | BCA
               Graduate
             </h5>
             <p>
