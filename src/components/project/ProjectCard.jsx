@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
           <div className="project-btn">
             <button className="btn1">
               <a href={props.git} target="_blank">
-                Source Code
+                Source Codes
               </a>
             </button>
             <button className="btn2">
