@@ -8,22 +8,14 @@ const projects = [
         link : "https://easyc.netlify.app",
         img : '/Images/Easyc.png'
     },
-    {
-        name:"TravelBhai- A canadian traveling Agency",
-        dis :"Developed a Canadian travel website using HTML, CSS, and JavaScript (Office Project) – Contributed as Developer.",
-        technologies : "Figma, HTML, CSS, JS",
-        github : "https://github.com/kushalbhatt266/travelbhaica",
-        link : "https://www.travelbhai.ca/",
-        img : '/Images/travelbhai.png'
-    },
-    {
-        name:"RathExpress- A Indian courier serive company",
-        dis :"Created Rath Express courier website using HTML, CSS, JavaScript, and React – Contributed as Developer.",
-        technologies : "Figma, HTML, CSS, JS, ReactJs",
-        github : "https://github.com/Bhanudaksh/rathexpressCourier",
-        link : "https://rathexpress.com/",
-        img : '/Images/rathexp.png'
-    },
+   {
+        name:"Koding Kaksha AI",
+        dis :"AI-Powered Learning & Coding Platform. A full-stack learning platform combining course management, coding and AI-assisted learning.",
+        technologies : "MERN, Redux, Gemini API",
+        github : "https://github.com/Harshkhanagwal/koding-kaksha-ai",
+        link : "https://koding-kaksha-ai.vercel.app ",
+        img : '/Images/kodingkaksha.png'
+   },
     
     {
         name:"React News App",
