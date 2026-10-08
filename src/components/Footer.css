@@ -1,0 +1,6 @@
+.site-footer .wordmark {
+  flex: 0 0 auto;
+}
+.site-footer > a {
+  transition: color 0.2s ease;
+}

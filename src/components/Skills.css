@@ -1,0 +1,114 @@
+.skills-content {
+  min-width: 0;
+}
+
+.skills-content > p {
+  max-width: 500px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px 14px;
+  margin-top: 30px;
+}
+
+.skill-card {
+  flex: 0 0 96px;
+  width: 96px;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 6px;
+  overflow: hidden;
+  border: 1px solid #b891f442;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 32% 24%, #b891f41c, transparent 58%),
+    linear-gradient(145deg, #201a29, #15121b);
+  box-shadow: 0 8px 20px #05040738, inset 0 1px #ffffff0a;
+  animation: skill-float 4.8s ease-in-out infinite;
+  animation-delay: calc(var(--skill-index, 0) * -0.42s);
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease,
+    background 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px) scale(1.035);
+  border-color: #c5a8e6a6;
+  background:
+    radial-gradient(circle at 32% 24%, #b891f433, transparent 58%),
+    linear-gradient(145deg, #282034, #191421);
+  box-shadow: 0 13px 26px #05040755, 0 0 20px #b891f41c;
+}
+
+.skill-card img {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 auto;
+  object-fit: contain;
+  filter: drop-shadow(0 3px 7px #0006);
+}
+
+.skill-card h3 {
+  display: -webkit-box;
+  max-width: 78px;
+  margin: 0;
+  overflow: hidden;
+  color: #eee8f5;
+  font: 500 9px/1.2 var(--heading);
+  text-align: center;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.skill-card-code {
+  color: #cdb2f0;
+  font: 600 21px/1 var(--mono);
+  text-shadow: 0 0 12px #b891f455;
+}
+
+@keyframes skill-float {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 -6px;
+  }
+}
+
+@media (max-width: 600px) {
+  .skills-list {
+    gap: 15px 9px;
+    margin-top: 24px;
+  }
+  .skill-card {
+    flex-basis: 88px;
+    width: 88px;
+    gap: 6px;
+    padding: 8px 5px;
+  }
+  .skill-card img {
+    width: 30px;
+    height: 30px;
+  }
+  .skill-card h3 {
+    font-size: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skill-card {
+    transition: none;
+    animation: none;
+  }
+}

@@ -1,0 +1,260 @@
+html[data-theme="light"] {
+  color-scheme: light;
+  color: #2b2039;
+  background: #faf8ff;
+  --bg: #faf8ff;
+  --panel: #f1ebfa;
+  --text: #2b2039;
+  --muted: #665d73;
+  --purple: #8052c8;
+  --border: rgba(92, 62, 137, 0.2);
+}
+
+html[data-theme="light"] body {
+  background: #faf8ff;
+}
+
+html[data-theme="light"] ::selection {
+  background: #8052c8;
+  color: #fff;
+}
+
+html[data-theme="light"] .nav-links {
+  color: #594b6b;
+}
+
+html[data-theme="light"] .nav-links > a:not(.nav-contact):hover,
+html[data-theme="light"] .hero-socials a:hover,
+html[data-theme="light"] .social-row a:hover {
+  color: #39214f;
+}
+
+html[data-theme="light"] .nav-contact {
+  color: #39214f;
+}
+
+html[data-theme="light"] .button-primary {
+  background: linear-gradient(135deg, #a77be9, #8d61d2);
+  border-color: #8d61d2;
+  color: #fff;
+  box-shadow: 0 8px 22px #8052c82b;
+}
+
+html[data-theme="light"] .button-primary:hover {
+  background: linear-gradient(135deg, #b58df0, #986cdb);
+}
+
+html[data-theme="light"] .button-quiet {
+  color: #49365e;
+}
+
+html[data-theme="light"] .eyebrow,
+html[data-theme="light"] .section-label,
+html[data-theme="light"] .scroll-note,
+html[data-theme="light"] .art-caption,
+html[data-theme="light"] .experience-kicker,
+html[data-theme="light"] .experience-card-number,
+html[data-theme="light"] .experience-date,
+html[data-theme="light"] .site-footer p,
+html[data-theme="light"] .site-footer > a:last-child {
+  color: #766a85;
+}
+
+html[data-theme="light"] .hero-intro strong,
+html[data-theme="light"] .hero-socials a,
+html[data-theme="light"] .social-row a,
+html[data-theme="light"] .contact-details a,
+html[data-theme="light"] .text-link,
+html[data-theme="light"] .projects-home-link,
+html[data-theme="light"] .projects-more-link,
+html[data-theme="light"] .projects .project-link {
+  color: #49365e;
+}
+
+html[data-theme="light"] .code-card,
+html[data-theme="light"] .experience-card,
+html[data-theme="light"] .experience-card.is-current,
+html[data-theme="light"] .projects .project-card,
+html[data-theme="light"] .projects .project-fallback,
+html[data-theme="light"] .landing-peek {
+  border-color: #8e6ac844;
+  background: linear-gradient(145deg, #fffaffed, #eee5f8f5 78%);
+  color: #322343;
+  box-shadow: 0 18px 42px #5742751c, inset 0 1px #ffffffb8;
+}
+
+html[data-theme="light"] .code-card b {
+  color: #568057;
+}
+
+html[data-theme="light"] .hero-art .orbit {
+  border-color: #875bc83d;
+}
+
+html[data-theme="light"] .hero-art .glow {
+  background: radial-gradient(ellipse, #8e58d63d, transparent 69%);
+}
+
+html[data-theme="light"] .projects .project-visual,
+html[data-theme="light"] .landing-projects .landing-active-card .project-visual,
+html[data-theme="light"] .projects .project-image {
+  background-color: #eee7f7;
+  background-image: radial-gradient(ellipse at 50% 55%, #9264d326, transparent 62%);
+}
+
+html[data-theme="light"] .projects .project-info {
+  background: linear-gradient(110deg, #fffaff, #f1eaf8 64%, #eee6f5);
+}
+
+html[data-theme="light"] .projects .project-info h3,
+html[data-theme="light"] .projects .project-fallback > strong {
+  color: #30203f;
+}
+
+html[data-theme="light"] .projects .project-fallback small,
+html[data-theme="light"] .projects .project-info h3 small,
+html[data-theme="light"] .projects .landing-carousel-meta > span,
+html[data-theme="light"] .projects .landing-position {
+  color: #746581;
+}
+
+html[data-theme="light"] .projects .tag-row span {
+  border-color: #8e6ac844;
+  background: #8052c80d;
+  color: #58416f;
+}
+
+html[data-theme="light"] .projects .project-number {
+  color: #7045a6;
+}
+
+html[data-theme="light"] .projects .project-link {
+  border-color: #8e6ac844;
+  background: #8052c80d;
+}
+
+html[data-theme="light"] .projects .project-link:hover {
+  background: #8052c81c;
+  color: #322343;
+}
+
+html[data-theme="light"] .landing-carousel::after {
+  background: linear-gradient(90deg, #faf8ff 0%, transparent 15%, transparent 85%, #faf8ff 100%);
+}
+
+html[data-theme="light"] .landing-arrow,
+html[data-theme="light"] .carousel-arrow {
+  border-color: #8e6ac866;
+  background: #f7f1ff;
+  color: #543477;
+  box-shadow: 0 8px 24px #57427524;
+}
+
+html[data-theme="light"] .landing-arrow:hover:not(:disabled),
+html[data-theme="light"] .carousel-arrow:hover {
+  background: #e9ddf8;
+}
+
+html[data-theme="light"] .landing-dots button,
+html[data-theme="light"] .carousel-dots button {
+  background: #c7b9d8;
+}
+
+html[data-theme="light"] .landing-dots button.active,
+html[data-theme="light"] .carousel-dots button.active {
+  background: #8052c8;
+}
+
+html[data-theme="light"] .experience-company,
+html[data-theme="light"] .experience-item div > p,
+html[data-theme="light"] .experience-item div > p span {
+  color: #554663;
+}
+
+html[data-theme="light"] .experience-kind {
+  color: #7045a6;
+}
+
+html[data-theme="light"] .about-stamp {
+  border-color: #8052c866;
+  color: #655376;
+}
+
+html[data-theme="light"] .skill-placeholder {
+  border-color: #8052c866;
+  color: #554663;
+}
+
+html[data-theme="light"] .skill-placeholder small {
+  color: #766a85;
+}
+
+html[data-theme="light"] .experience-card-icon {
+  color: #7143b1;
+}
+
+html[data-theme="light"] .experience-card::before {
+  border-color: #f2eafa;
+}
+
+html[data-theme="light"] .skill-card {
+  border-color: #8e6ac844;
+  background: radial-gradient(circle at 35% 23%, #9f73df24, transparent 53%), linear-gradient(145deg, #fffaff, #eee7f6);
+  box-shadow: 0 12px 25px #57427518, inset 0 1px #ffffffb8;
+}
+
+html[data-theme="light"] .skill-card h3 {
+  color: #453255;
+}
+
+html[data-theme="light"] .skill-card:hover {
+  border-color: #8052c899;
+  background: radial-gradient(circle at 32% 24%, #9f73df35, transparent 58%), linear-gradient(145deg, #fffaff, #e9def5);
+  box-shadow: 0 13px 26px #57427526, 0 0 20px #8052c81c;
+}
+
+html[data-theme="light"] .skill-card-code {
+  color: #7143b1;
+}
+
+html[data-theme="light"] .contact-details a,
+html[data-theme="light"] .contact-form label,
+html[data-theme="light"] .form-footer p {
+  color: #554663;
+}
+
+html[data-theme="light"] .contact-form input,
+html[data-theme="light"] .contact-form textarea {
+  border-color: #8a6daa55;
+  color: #30223f;
+}
+
+html[data-theme="light"] .contact-form input::placeholder,
+html[data-theme="light"] .contact-form textarea::placeholder {
+  color: #897d96;
+}
+
+html[data-theme="light"] .contact-form label:focus-within {
+  color: #4c3268;
+}
+
+html[data-theme="light"] .theme-toggle {
+  background: linear-gradient(145deg, #8052c81a, #ffffff90);
+}
+
+html[data-theme="light"] .nav-links.open {
+  background: #f7f1ff;
+}
+
+html[data-theme="light"] .menu-toggle span {
+  background: #49365e;
+}
+
+html[data-theme="light"] .cursor-follower {
+  background: #f6efffe8;
+}
+
+html[data-theme="light"] .cursor-follower span {
+  background: #eee5f8;
+  color: #5b388b;
+}

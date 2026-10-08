@@ -1,0 +1,7 @@
+.about-content {
+  position: relative;
+  z-index: 1;
+}
+.about-content p {
+  max-width: 555px;
+}

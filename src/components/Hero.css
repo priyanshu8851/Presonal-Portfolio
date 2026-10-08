@@ -1,0 +1,125 @@
+/* The section shares the same outer width and page margins as every section-wrap. */
+.hero {
+  position: relative;
+  isolation: isolate;
+  display: block;
+  min-height: 650px;
+  padding: 68px 0 30px;
+  background-color: #100e14;
+  background-image:
+    
+    url("/images/hero-bg.png");
+  background-position: center, center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero .container {
+  position: relative;
+  width: 100%;
+  min-height: 552px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  grid-template-rows: 1fr auto;
+  align-items: center;
+  column-gap: clamp(24px, 5vw, 72px);
+}
+
+.hero-copy {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 650px;
+}
+
+.hero-art {
+  width: 100%;
+  min-width: 0;
+  transform: none;
+}
+
+.hero-socials a,
+.hero .scroll-note {
+  transition: color 0.2s ease;
+}
+
+.hero .scroll-note {
+  position: static;
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+  font: 9px var(--mono);
+  letter-spacing: 1.2px;
+  color: #a59eaf;
+}
+
+.hero .scroll-note span {
+  width: 27px;
+  height: 1px;
+  background: #8e6ac8;
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    min-height: 705px;
+  }
+  .hero .container {
+    min-height: 607px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    min-height: 0;
+    padding: 54px 0 28px;
+  }
+  .hero .container {
+    min-height: 0;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+  }
+  .hero-copy {
+    max-width: 680px;
+  }
+  .hero-art {
+    height: 325px;
+    margin-top: 0;
+  }
+  .hero .scroll-note {
+    margin-top: 2px;
+  }
+}
+
+@media (max-width: 680px) {
+  .hero {
+    padding: 46px 0 24px;
+    background-position: center, 58% center;
+  }
+  .hero-art {
+    height: 285px;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero {
+    padding-top: 38px;
+  }
+  .hero-art {
+    height: 250px;
+  }
+}
+
+html[data-theme="light"] .hero {
+  background-color: #f4edff;
+  background-image:
+    linear-gradient(90deg, #faf7ffae 0%, #faf7ff6c 48%, #faf7ff2c 100%),
+    url("/images/hero-bg-light.png");
+}
+.hero .container{
+      width: min(1120px, calc(100% - 64px)) !important;
+    margin-inline: auto;
+}
