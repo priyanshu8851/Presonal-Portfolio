@@ -33,7 +33,7 @@ export const projects = [
     technologies: ["React", "API", "HTML", "CSS"],
     github: "https://github.com/priyanshu8851/WeatherApp",
     live: "https://weather-app-pika.netlify.app/",
-    image: "/Images/weatherApp.png",
+    image: "/Images/weatherApp.jpeg",
   },
   {
     name: "Shape-x",
