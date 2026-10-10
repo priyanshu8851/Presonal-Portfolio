@@ -8,7 +8,7 @@
   background-color: #100e14;
   background-image:
     
-    url("/images/hero-bg.png");
+    url("/Images/hero-bg.png");
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -117,7 +117,7 @@ html[data-theme="light"] .hero {
   background-color: #f4edff;
   background-image:
     linear-gradient(90deg, #faf7ffae 0%, #faf7ff6c 48%, #faf7ff2c 100%),
-    url("/images/hero-bg-light.png");
+    url("/Images/hero-bg-light.png");
 }
 .hero .container{
       width: min(1120px, calc(100% - 64px)) !important;

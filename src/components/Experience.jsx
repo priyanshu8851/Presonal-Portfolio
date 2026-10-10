@@ -2,14 +2,15 @@ import "./Experience.css";
 
 const milestones = [
   {
-    number: "01",
-    kind: "LEARNING",
-    title: "Curiosity into craft",
-    company: "Building the foundations",
-    date: "THE START",
+    number: "03",
+    kind: "FULL-TIME",
+    title: "Frontend Developer",
+    company: "Progmattic AI",
+    date: "JUN 2025 — PRESENT",
     description:
-      "Learning by making: exploring the web, sharpening frontend fundamentals, and turning ideas into useful interfaces.",
-    icon: "✳",
+      "Building responsive web interfaces, bringing designs to life, and connecting UI components with APIs to create clear, useful experiences.",
+    icon: "↗",
+    current: true,
   },
   {
     number: "02",
@@ -22,15 +23,14 @@ const milestones = [
     icon: "↗",
   },
   {
-    number: "03",
-    kind: "FULL-TIME",
-    title: "Frontend Developer",
-    company: "Progmattic AI",
-    date: "JUN 2025 — PRESENT",
+    number: "01",
+    kind: "LEARNING",
+    title: "Curiosity into craft",
+    company: "Building the foundations",
+    date: "THE START",
     description:
-      "Building responsive web interfaces, bringing designs to life, and connecting UI components with APIs to create clear, useful experiences.",
-    icon: "↗",
-    current: true,
+      "Learning by making: exploring the web, sharpening frontend fundamentals, and turning ideas into useful interfaces.",
+    icon: "✳",
   },
 ];
 

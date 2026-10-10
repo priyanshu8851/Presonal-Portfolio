@@ -7,7 +7,7 @@ export const projects = [
     technologies: ["C", "React", "Figma", "HTML", "CSS"],
     github: "https://github.com/Harshkhanagwal/easyc-website",
     live: "https://easyc.netlify.app",
-    image: "/images/Easyc.png",
+    image: "/Images/Easyc.png",
   },
   {
     name: "Koding Kaksha AI",
@@ -16,7 +16,7 @@ export const projects = [
     technologies: ["MERN", "Redux", "Gemini API"],
     github: "https://github.com/Harshkhanagwal/koding-kaksha-ai",
     live: "https://koding-kaksha-ai.vercel.app",
-    image: "/images/kodingkaksha.png",
+    image: "/Images/kodingkaksha.png",
   },
   {
     name: "React News App",
@@ -24,7 +24,7 @@ export const projects = [
     technologies: ["React", "API", "HTML", "CSS"],
     github: "https://github.com/Harshkhanagwal/stockImgwebsite",
     live: "https://new-z.netlify.app/",
-    image: "/images/news.png",
+    image: "/Images/news.png",
   },
   {
     name: "React WeatherApp",
@@ -33,7 +33,7 @@ export const projects = [
     technologies: ["React", "API", "HTML", "CSS"],
     github: "https://github.com/priyanshu8851/WeatherApp",
     live: "https://weather-app-pika.netlify.app/",
-    image: "/images/weatherApp.png",
+    image: "/Images/weatherApp.png",
   },
   {
     name: "Shape-x",
@@ -42,7 +42,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "Figma"],
     github: "https://github.com/priyanshu8851/shapex-landingPage",
     live: "https://shape-x.netlify.app/",
-    image: "/images/Shapex.png",
+    image: "/Images/Shapex.png",
   },
   {
     name: "COC Landing Page",
@@ -50,7 +50,7 @@ export const projects = [
     technologies: ["HTML", "CSS"],
     github: "https://github.com/priyanshu8851/coc_landingPage_idea",
     live: "https://coc-landingpage.netlify.app/",
-    image: "/images/coc.png",
+    image: "/Images/coc.png",
   },
   {
     name: "Sticky_trends",
@@ -58,7 +58,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "React", "Figma"],
     github: "https://github.com/priyanshu8851/Sticky_trends",
     live: "https://stickytrends.netlify.app/",
-    image: "/images/stickyTrends.png",
+    image: "/Images/stickyTrends.png",
   },
   {
     name: "Tech-boot",
@@ -66,7 +66,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "Bootstrap"],
     github: "https://github.com/priyanshu8851/Tech-Boot",
     live: "https://tech-boot.netlify.app/",
-    image: "/images/techboot.png",
+    image: "/Images/techboot.png",
   },
   {
     name: "DigitalClub",
@@ -74,7 +74,7 @@ export const projects = [
     technologies: ["HTML", "CSS"],
     github: "https://github.com/priyanshu8851/DigiClub",
     live: "https://digitalclub.netlify.app/",
-    image: "/images/digitalclub.jpg",
+    image: "/Images/digitalclub.jpg",
   },
   {
     name: "Todo-List",
@@ -82,6 +82,6 @@ export const projects = [
     technologies: ["React", "HTML", "CSS", "Figma"],
     github: "https://github.com/priyanshu8851/TodoList",
     live: "https://react-todo-priyanshu.netlify.app/",
-    image: "/images/todo.png",
+    image: "/Images/todo.png",
   },
 ];

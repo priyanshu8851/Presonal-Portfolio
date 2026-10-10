@@ -5,15 +5,15 @@ export const links = {
 }
 
 export const skills = [
-  { name: 'HTML', image: '/images/html_logo.png', category: 'STRUCTURE' },
-  { name: 'CSS', image: '/images/css_logo.png', category: 'STYLING' },
-  { name: 'JavaScript', image: '/images/js_logo.png', category: 'LANGUAGE' },
-  { name: 'React', image: '/images/react_logo.png', category: 'FRONTEND' },
-  { name: 'Bootstrap', image: '/images/bootstrap_logo.png', category: 'FRAMEWORK' },
-  { name: 'Tailwind CSS', image: '/images/tailwind.png', category: 'STYLING' },
-  { name: 'Figma', image: '/images/figma.png', category: 'DESIGN' },
-  { name: 'Adobe Photoshop', image: '/images/photoshop.png', category: 'DESIGN' },
-  { name: 'GitHub', image: '/images/github.png', category: 'VERSION CONTROL' },
-  { name: 'SQL', image: '/images/sql.png', category: 'DATABASE' },
+  { name: 'HTML', image: '/Images/html_logo.png', category: 'STRUCTURE' },
+  { name: 'CSS', image: '/Images/css_logo.png', category: 'STYLING' },
+  { name: 'JavaScript', image: '/Images/js_logo.png', category: 'LANGUAGE' },
+  { name: 'React', image: '/Images/react_logo.png', category: 'FRONTEND' },
+  { name: 'Bootstrap', image: '/Images/bootstrap_logo.png', category: 'FRAMEWORK' },
+  { name: 'Tailwind CSS', image: '/Images/tailwind.png', category: 'STYLING' },
+  { name: 'Figma', image: '/Images/figma.png', category: 'DESIGN' },
+  { name: 'Adobe Photoshop', image: '/Images/photoshop.png', category: 'DESIGN' },
+  { name: 'GitHub', image: '/Images/github.png', category: 'VERSION CONTROL' },
+  { name: 'SQL', image: '/Images/sql.png', category: 'DATABASE' },
   { name: 'API integration', category: 'DEVELOPMENT' },
 ]
