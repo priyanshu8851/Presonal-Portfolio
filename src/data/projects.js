@@ -19,6 +19,15 @@ export const projects = [
     image: "/Images/kodingkaksha.png",
   },
   {
+    name: "Decodify",
+    subtitle: "Code explainer",
+    description: "An Ai code explainer use gemini API for responses",
+    technologies: ["ReactJS", "API" , "CSS", "Gemini"],
+    github: "https://github.com/priyanshu8851/Dkodify",
+    live: "https://dkodify.vercel.app",
+    image: "/Images/Decodify.png",
+  },
+  {
     name: "React News App",
     description: "Realtime news application built with React and an API.",
     technologies: ["React", "API", "HTML", "CSS"],
