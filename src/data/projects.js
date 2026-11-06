@@ -1,5 +1,14 @@
 export const projects = [
   {
+    name: "Webkie",
+    subtitle: "Team project",
+    description: "AI-powered website builder.",
+    technologies: ["MERN", "CSS", "AI" ],
+    github: "https://github.com/Harshkhanagwal/nocode-website-builder",
+    live: "https://webkie.vercel.app",
+    image: "/Images/Webkie.png",
+  },
+  {
     name: "EacyC",
     subtitle: "Team project",
     description:
@@ -93,4 +102,5 @@ export const projects = [
     live: "https://react-todo-priyanshu.netlify.app/",
     image: "/Images/todo.png",
   },
+  
 ];
